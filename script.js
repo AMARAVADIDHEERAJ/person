@@ -1,6 +1,6 @@
 $(function (){
     var role=0;
-    var roles=["Undergraud Student","Web Developer"];
+    var roles=["Programming Enthusiast","Web Developer","Digital Marketing Fanatic"];
     setInterval( () => {
    $(".home-content h2 span").fadeOut(500, function () {
         $(this).text(roles[role++ % roles.length] + "...");
