@@ -13,6 +13,10 @@ section#home {
     margin-top: -72px;
     overflow: hidden;
 }
+.max-width{
+    margin: auto 0 auto 40px ;
+}
+
 section#home::after {
     content: "";
     display: block;
@@ -51,7 +55,7 @@ section#analytics {
 .home-content h1 {
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 3.25em;
+    font-size: 2.25em;
     margin-bottom: 20px;
     white-space: nowrap;
 }
@@ -75,12 +79,11 @@ section#analytics {
 }
 .home-content1 {
     /* border: 1px solid #ccc;*/
-     position:absolute;
-     top: 54%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     color: rgb(0, 0, 0);
-     z-index: 1;
+    position:absolute;
+    top: 56%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
      /*text-shadow: 0 0 5px #000;*/
  }
  .home-content1 p{
@@ -116,14 +119,18 @@ section#analytics {
      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  }
 .home-image {
-    left: 0;
-    right: 0;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU_KvmYEeXUTyrEVMQYggQY5AALrKLaP9QGQ&usqp=CAU") no-repeat center;
     position:absolute;
-    min-width: 100%;
-    min-height: 100%;
     z-index: -1;
     left: 35%;
     transform: translate(-35%);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    min-height: 500px;
 }
 .about-image {
     width: 45%;
